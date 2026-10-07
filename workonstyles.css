@@ -1,0 +1,100 @@
+body {
+    background-color: #d4e8a4;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: lab(41.46% 50.51 -61.69);
+    background-color: #f0e6f7;
+    padding: 50px;
+    font-size: 50px;
+}
+
+hr {
+    border: 2px solid #623a7c;
+    margin: 20px 0;
+    width: 100%;
+}
+
+img {
+     width: max-content;
+     display: flex
+
+}
+.section-1 {
+    color: #1f1d1d;
+    padding: 20px;
+    background-color: #c2a9e6;
+    border: 3px solid #151414;
+    font-family: cursive, sans-serif;
+}
+
+.section-2 {
+    padding: 20px;
+    kerning: 1px;
+}
+
+.section-3 {
+    padding: 20px;
+    background-color: #884ddb;
+}
+
+.section-4 {
+    background-color: #f0e6f7;
+    padding: 20px;
+    margin-left: 3% 0;
+    width: 50%;
+    border: 2px solid #151414;
+    justify-content: space-between;
+}
+#firstpet {
+    font-style: monospace, serif;
+    font-weight: bold;
+    color: #9f4d4d;
+}
+#fluffiestpet {
+    font-style: italic;
+    font-weight: bold;
+    color: #553492;
+    display: center;
+    user-select: none;
+}
+#happiestpet {
+    font-style: helvetica, sans-serif;
+    font-weight: bold;
+    color: #296771;
+}
+#longestpet {
+    font-style: verdana, sans-serif;
+    font-weight: bold;
+    color: #a94551;
+}
+
+button {
+    background-color: #7743c9;
+    color: #141313;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    flex-shrink : 100%;
+    inset: 10px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(82, 167, 174, 0.1);
+    
+}
+.section-5 {
+    padding: 20px;
+    background-color: #c2a9e6;
+    border: 3px solid #151414;
+    font-family: cursive, sans-serif;
+    display: flex;
+}
+@media screen and (max-width: 450px) {
+    .section-5 {
+        flex-direction: column;
+        align-content: space-around;
+    }
+}

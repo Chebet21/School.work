@@ -1,0 +1,23 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-1 {
+    font: size 50px;
+    color: cornflowerblue;
+    background-image: url();
+    align-content: center;
+    padding-left: 40%;
+}
+
+.div-2 {
+    background-color: rgb(147, 204, 204);
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20%;
+}
+.lists {
+    flex-direction: row;
+    align-items: normal;
+}

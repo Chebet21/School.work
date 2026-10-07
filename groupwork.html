@@ -1,0 +1,79 @@
+<h1 style="color: rgb(0, 221, 255);">Group 2 work</h1>
+<h2>Hello Class</h2>
+<body>
+    <p>We have learned many different things this week. Such as</p>
+    <ol>
+        <li>HTML tags</li>
+        <li>Creating lists</li>
+        <li>Adding images</li>
+        <li>Creating links</li>
+    </ol>
+    <p>We have learned of many different html tags today such as</p>
+    <ul>
+        <li>&lt;h1&gt; to &lt;h6&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;em&gt;</li>
+    </ul>
+    <br>
+    <div>
+        <p>We have also learned how to add images and links to our html pages. We have learned how to use the &lt;img&gt; tag to add images and the &lt;a&gt; tag to add links. We also learned how to use the &lt;button&gt; tag to create buttons</p>
+        <p>These look like such;</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihg1FJ9bRHeZinz-Lnb7QiDBl5vTXDvKZzMdgBgLyGw&s=10" alt="Hello image" width="500" height="300">
+        <br>
+        <button style="background-color: #00bcd4; color: rgb(21, 19, 19); border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs&list=RDDLzxrzFCyOs&start_radio=1&pp=ygULcmljayBhc3RsZXmgBwE%3D" style="color: white; text-decoration: none;">Video example</a></button>
+
+    </div>
+    <p>We have learned alot. From these, what is your favourite html tag?</p>
+    <input type="text" placeholder="What is your favourite html tag?">
+    <input type="submit" value="Submit">
+    <br>
+    <p>We have also learned how to create forms. We can use the &lt;form&gt; tag to create forms. We can use the &lt;input&gt; tag to create input fields. We can use the &lt;label&gt; tag to create labels for our input fields.</p>
+    <form action="https://www.google.com/search" method="get">
+        <label for="search">Search the web:</label>
+        <input type="text" id="search" name="q" placeholder="Search...">
+        <input type="submit" value="Search">
+    </form>
+    <br>
+    <p>We can also use the &lt;dl&gt;, &lt;dt&gt;, and &lt;dd&gt; tags to create definition lists.</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language used to create interactive effects within web browsers.</dd>
+    </dl>
+    <br>
+    <p>We can use the option tag to display different options.</p>
+    <option value="grape">Grape</option>
+    <option value="mango">Mango</option>
+    <p>Using the select tag, options with different values can be created.</p>
+    <p>What is your favourite fruit?</p>
+    <select>
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+        <option value="banana">Banana</option>
+    </select>
+    <br>
+    <p>If your favourite fruit is not listed, please enter it below:</p>
+    <label for="fruit">Choose your favourite fruit:</label>
+    <input type="text" id="fruit" name="fruit" placeholder="Enter your favourite fruit">
+    <input type="submit" value="Submit"> 
+    <br>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(20, 20, 150, 50); 
+    </script>
+    <p>We can also display the date and time:</p>
+    <p id="datetime"></p>
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    </script>
+</body>
